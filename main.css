@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100vh;
+    width: 100%;
+    /* background-color: url("https://images.unsplash.com/photo-1622737133809-d95047b9e673?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80") */
+    background-color: #211e1e;
+
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+#nav {
+    color: white;
+    height: 13vh;
+    /* width: 96.1%; */
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+
+    gap: 181px;
+
+    padding-top: 10px;
+
+    /* border-bottom: 1px solid white; */
+}
+
+#highscore {
+    font-size: 15px;
+    height: 9vh;
+    width: 15vw;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: white
+}
+
+#hitpoint {
+    font-size: 15px;
+    height: 9vh;
+    width: 15vw;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: white
+}
+
+#timer {
+
+    height: 10vh;
+    width: 5vw;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    border: 5px solid rgb(243, 190, 0);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-size: 40px;
+
+}
+
+#rec {
+    height: 45px;
+    width: 65px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 4px solid rgb(252, 177, 3);
+    font-size: 29px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+#hit {
+    height: 45px;
+    width: 65px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 4px solid rgb(253, 168, 0);
+    /* border: 1px double  white; */
+    font-size: 29px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.mainpanel {
+    height: 73vh;
+    width: 70vw;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left: 15%;
+    top: 20%;
+    border: 1px solid rgb(255, 196, 0);
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bubble {
+    height: 44px;
+    width: 44px;
+    background-color: rgb(210, 209, 203);
+    border-radius: 50%;
+    margin-top: 8px;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.bubble:hover {
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+}
+
+#ag button {
+    height: 10vh;
+    width: 14vw;
+    background-color: rgb(255, 164, 0);
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 35px;
+    color: white;
+
+
+}
+
+#ag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 27%;
+    top: 15;
+
+    gap: 30px;
+}
+
+#ag button a {
+    text-decoration: none;
+    color: white;
+}
+
+#ag button i {
+    gap: 10px;
+}
+
+#hedig {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+#logo {
+    height: 13vh;
+    width: 18vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#element {
+    font-size: 3vw;
+    color: rgb(255, 249, 238);
+    text-align: center;
+
+
+}
+
+/* #game{
+    color: white;
+    font-size: 8vw;
+    -webkit-text-stroke: 8px red;
+}
+
+#divscore{
+    font-size: 6vw;
+    color: white;
+    -webkit-text-stroke: 7px red;
+
+}
+#ag{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#bubh{
+    font-size: 3vw;
+    color: white;
+    -webkit-text-stroke: 4px rgb(220, 0, 0);
+
+} */
+
+
+
+
+#game {
+    color: transparent;
+    font-size: 8vw;
+    -webkit-text-stroke: 2px #bd00ff;
+
+}
+
+#divscore {
+    font-size: 6vw;
+    color: transparent;
+    -webkit-text-stroke: 2px #bd00ff;
+
+}
+
+#ag {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#bubh {
+    font-size: 4vw;
+    color: transparent;
+    -webkit-text-stroke: 2px #bd00ff;
+
+}
